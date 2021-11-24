@@ -4,3 +4,7 @@ version = "0.1.0"
 edition = "2018"
 
 [dependencies]
+solana-program = "1.8.5"
+
+[lib]
+crate-type = ["cdylib", "lib"]
