@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node dist/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fmt": "npx prettier --write js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,8 @@
   "homepage": "https://github.com/devguchi/solana1#readme",
   "dependencies": {
     "@solana/web3.js": "^1.31.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.4.1"
   }
 }
