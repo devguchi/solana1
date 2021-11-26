@@ -5,6 +5,8 @@ edition = "2018"
 
 [dependencies]
 solana-program = "1.8.5"
+borsh = "0.9.1"
+borsh-derive = "0.9.1"
 
 [lib]
 crate-type = ["cdylib", "lib"]
